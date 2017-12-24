@@ -1,0 +1,155 @@
+10  cd
+   11  cd Desktop/
+   12  mkdir workshop
+   13  cd workshop
+   14  mkdir intro
+   15  cd intro
+   16  get config user.name snahil
+   17  get config --global user.name snahil
+   18  get config --g user.name snahil
+   19  get config --global user.name snahil
+   20  git config --global user.name snahil
+   21  git config --global user.email snahilindoria999@g                                                                              mail.com
+   22  git init
+   23  echo  "hello snahil indoria " >index.htm
+   24  vi index.htm
+   25  cat index.htm
+   26  vi index.htm
+   27  history
+   28  git status
+   29  git add index.html
+   30  git add index.htm
+   31  git status
+   32  git status
+   33  git commit -m "initial comit"
+   34  git log
+   35  git log
+   36  cd .git/
+   37  cat head
+   38  cd refs/heads/master
+   39  cat master
+   40  cd /refs/heads/master
+   41  cd /refs/heads/master/head
+   42  cd .git ls -la
+   43  cd .git
+   44  ls -la
+   45  cd ..
+   46  creating new branch
+   47  git branch snahil1
+   48  clear
+   49  git log
+   50  cd .git/refs/heads/
+   51  ls
+   52  cat master
+   53  cat snahil1
+   54  as it is seen in both the case that the following                                                                               both the branch is pointing the same node(master)
+   55  clear
+   56  gitn checkout snahil1
+   57  git checkout snahil1
+   58  git checkout tree
+   59  cd
+   60  git checkout snahil1
+   61  cd
+   62  cd ..
+   63  cd /Desktop/
+   64  cd /Desktop
+   65  cd
+   66  cd /Desktop
+   67  cd /Desktop/
+   68  ls
+   69  pwd
+   70  cd /Desktop
+   71  cd /Desktop/
+   72  cd /workshop
+   73  cd /workshop/
+   74  cd workshop
+   75  cd /intro
+   76  cd /intro/
+   77  cd /Desktop/workshop/intro
+   78  ls
+   79  cd intro
+   80  clear
+   81  celar
+   82  history
+   83  now we are creating a new branch in the main bran                                                                              ch on the grapn and commiting it symentationaly
+   84  head will go in the branch which wan to commit an                                                                              d the commit will be done wher head is pointing
+   85  clear
+   86  clear
+   87  /
+   88  .
+   89  head will go in the branch which wan to commit an                                                                              d the commit will be done wher head is pointing
+   90  clear
+   91  cd ..
+   92  git clone https://github.com/snahil/cb-workshop.g                                                                              it
+   93  cd cd-workshop/
+   94  cd cd-workshop
+   95  cd cb-workshop\
+   96  cd cb-workshop
+   97  git log
+   98  git remote show
+   99  git remote show origin
+  100  git remote remove origin
+  101  clear
+  102  remote show
+  103  remot show
+  104  clear
+  105  git add remove origin
+  106  git add remove origin https://github.com/snahil/c                                                                              b-workshop.git
+  107  git remote add origin https://github.com/snahil/c                                                                              b-workshop.git
+  108  git push origin master
+  109  git log
+  110  echo "third file" >third.txt
+  111  git add
+  112  git add .
+  113  git commit -m "ADD" origin https://github.com/sna                                                                              hil/cb-workshop.git
+  114  git commit -m "ADD" origin
+  115  git commit -m "ADD"
+  116  git push origin master
+  117  git log
+  118  ls
+  119  history
+  120  clear
+  121  git pull origin master
+  122  ls
+  123  cat third.txt
+  124  clear
+  125  git branch todo
+  126  git checkout todo
+  127  vim third.txt
+  128  git add.
+  129  git add .
+  130  git commit add -m "some extra work"
+  131  git commit  -m "some extra work"
+  132  git commit  -m "some extra work"
+  133  git commit  -m "some extra work" todo
+  134  git push origin todo
+  135  ls
+  136  cd /workshop
+  137  cd /workshop/
+  138  cd /Desktop/workshop/
+  139  cd /workshop
+  140  cd /workshop/
+  141  ls
+  142  pwd
+  143  cd /workshop
+  144  cd workshop
+  145  git clone https://github.com/snahil/jbug-delhi.gi                                                                              thub.io.git
+  146  git log
+  147  int git
+  148  init git
+  149  clear
+  150  git log
+  151  clear
+  152  ls
+  153  git remot show origin
+  154  git remote show origin
+  155  cd jbug-delhi.github.io/
+  156  git remote show origin
+  157  this command which we have used above shows us th                                                                              at the fork is been done or not by this we can check tha                                                                              t are we able to fork it befor cloning if we do without                                                                               fork we wont able to give push request
+  158  git remote show
+  159  ls
+  160  git div
+  161  git diff
+  162  git add .
+  163  git diff --cached
+  164  the upper command is used to check the modificati                                                                              on tha we have to done we can use git status also but it                                                                               will not show the changes done
